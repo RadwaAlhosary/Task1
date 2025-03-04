@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio showcasing my projects, skills, and contact information.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Radwa</h1>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects-table">Projects Table</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#multimedia">Multimedia</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="imgs/photo_2025-03-04_13-53-58.jpg" alt="My Profile Picture" width="150">
+        <p>Aspiring Front-End Development with a foundational understanding of HTML, CSS, and JavaScript. Eager to learn and grow, 
+            currently building skills through coursework and personal projects. Strong interest in creating intuitive, responsive web 
+            interfaces. Looking for an entry-level position to gain practical experience and contribute to a development team.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>A website about a bakery that describes first who we are, second the types of baked goods we offer, and our location in detail.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>A café website for coffee lovers that explains first who we are and why you should choose Divine Café, and also provides prices and its location in detail.A café website for coffee lovers that explains first who we are and why you should choose Divine Café, and also provides prices and its location in detail.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3</h3>
+            <p>E-commerce that offers its available products, prices and offers, and much more.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+    <!-- Projects Table Section -->
+    <section id="projects-table">
+        <h2>Projects Table</h2>
+        <table border="1">
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Technologies Used</th>
+            </tr>
+            <tr>
+                <td>Bakery</td>
+                <td>A bakery that offers good types of baked goods and many other things.</td>
+                <td>HTML, CSS</td>
+            </tr>
+            <tr>
+                <td>ENGAGE</td>
+                <td>A café website for coffee lovers that offers the best types of coffee and many other features.</td>
+                <td>Html, CSS</td>
+            </tr>
+            <tr>
+                <td>E-commerce</td>
+                <td>E-commerce offers many products,their prices,available offers,and many other features.</td>
+                <td>Html,bootstrap,React,Node.js</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Multimedia Section -->
+    <section id="multimedia">
+        <h2>Watch My Video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=6HTcBub9W54" allowfullscreen></iframe>
+
+        <h3>My Favorite TV Show Theme</h3>
+        <audio controls>
+            <source src="favorite-show.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+        <a href="https://example.com" target="_blank">Visit My Blog</a> |
+        <a href="resume.pdf" download>Download My Resume</a>
+    </footer>
+
+</body>
+</html>
